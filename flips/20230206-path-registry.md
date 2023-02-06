@@ -71,18 +71,6 @@ It could be worth exploring a design-by-contract paradigm to formalize this in a
 
 NO YET
 
-### Example 1
-
-The Find project is going to be using metadata as lookup and index points. The project is available here:
-https://github.com/findonflow/find
-
-### Example 2
-
-This example shows how you might implement this specification with the ability to add new view types to your NFT 
-contract after it has already been published through the use of a `ViewResolver` pattern.
-[Gist available here](https://gist.github.com/briandilley/962e94682b7945d882fcd99702011ea4),
-[Playground available here](https://play.onflow.org/a71203b9-a03a-47f9-ab70-7285fcf4c56a?type=account&id=0)
-
 ## Compatibility
 
 It would be available to all smart contract.
