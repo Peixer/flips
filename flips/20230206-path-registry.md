@@ -3,8 +3,8 @@
 | Status        | Proposed |
 :-------------- |:---------------------------------------------------- |
 | **FLIP #**    | [636](https://github.com/onflow/flow/pull/636)                                                                                       |
-| **Author(s)** | Glaicon Peixer (gjpeixer@gmail.com), Felipe Ribeiro (X), Brian Dilley (x)              |
-| **Sponsor**   | Peter Siemens (peter@dapperlabs.com)                                                                                                 |
+| **Author(s)** | Glaicon Peixer (gjpeixer@gmail.com), Felipe Ribeiro (X), Brian Dilley (x)                                                            |
+| **Sponsor**   | X (X@dapperlabs.com)                                                                                                                 |
 | **Updated**   | 2023-02-05                                                                                                                           |
 
 
@@ -12,7 +12,6 @@
 
 This proposal will make it possible to manage paths used through the network. 
 Using this standard you won't need to be concern about path conflict with other smart contracts, just call the PathRegistry and get your custom path completly unique for your smart contract. If you need get Path informations about a smart contract, call getPaths and you will be able to get that.
-
 
 ## Motivation
 
@@ -22,10 +21,8 @@ where the smart contract authors can find a freedom to create their pattern.
 
 ## User Benefit
 
-
-We feel that a standard that authors can implement that enables more confidence to create new 
-smart contracts without have to worry about path conflicts will have a smooth way to integrate 
-with the flow community.
+We feel that a pattern that authors can implement that allows more confidence to create new
+smart contracts without having to worry about path conflicts will have a better ux.
 
 ## Design Proposal
 
